@@ -1,28 +1,17 @@
-# Vivery Corpus & Beleza — GitHub Pages
+# Modelo de site para salão de beleza
 
-Este pacote contém o site estático pronto para publicar. Não é necessário instalar programas ou executar uma compilação.
+Esta é uma demonstração genérica para apresentar a diferentes salões. O nome **Seu Espaço** e as fotos são ilustrativos. Nenhum contato ou endereço real está configurado.
 
-## Conteúdo
+## Personalizar para um cliente
 
-- `index.html` — página principal
-- `styles.css` — visual do site
-- `script.js` — menu para celular e ano do rodapé
-- `assets/trabalhos-instagram.png` — imagens usadas no site
-- `.nojekyll` — indica ao GitHub Pages que os arquivos já estão prontos
+1. Em `index.html`, substitua “Seu Espaço” pelo nome do salão e revise os textos e serviços para refletir o negócio.
+2. Troque as imagens em `assets/` por fotos autorizadas do salão. Os recortes e posições ficam em `template.css`.
+3. Troque os botões de demonstração por links reais de WhatsApp e Google Maps. Hoje eles exibem uma mensagem explicativa definida em `script.js`.
+4. Atualize o título e a descrição no início de `index.html`.
+5. Revise tudo antes de publicar para não deixar informações ilustrativas como se fossem fatos do cliente.
 
-## Publicar
+## Publicar no GitHub Pages
 
-1. Abra o repositório [BrunoFazardoLima/vivery-proposta](https://github.com/BrunoFazardoLima/vivery-proposta). Ele está vazio no momento.
-2. Extraia o arquivo ZIP e envie **os arquivos de dentro dele** para a raiz do repositório usando **Add file → Upload files**. O arquivo `index.html` deve aparecer na página principal do repositório, não dentro de uma pasta adicional. Confirme o envio em **Commit changes**.
-3. No repositório, abra **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Selecione a branch `main` e a pasta `/(root)`. Clique em **Save**.
-6. Aguarde o endereço do site aparecer na mesma página. O endereço esperado é **https://brunofazardolima.github.io/vivery-proposta/**. O GitHub informa que a publicação pode levar alguns minutos.
+Envie os arquivos extraídos do ZIP para a raiz de **um novo repositório**. `index.html` deve ficar na raiz. Em **Settings → Pages**, selecione **Deploy from a branch**, a branch `main` e a pasta `/(root)`; depois clique em **Save**.
 
-O site usa caminhos relativos, então funciona no endereço desse repositório.
-
-## Alterações futuras
-
-Edite os arquivos e envie as novas versões ao mesmo repositório. Para trocar as fotos, substitua `assets/trabalhos-instagram.png` e ajuste os recortes no CSS, ou envie as fotos originais para preparar uma galeria com melhor resolução.
-
-Os botões de WhatsApp, Instagram e Google Maps já apontam para os links fornecidos para a Vivery.
+Este modelo é independente do repositório `vivery-proposta`. Use outro repositório para manter a proposta da Vivery intacta.

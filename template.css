@@ -1,0 +1,12 @@
+.hero-photo{background-image:url('assets/salao-ilustrativo.png');background-size:cover;background-position:43% center}
+.gallery-photo{background-image:url('assets/galeria-ilustrativa.png');background-size:200% 200%;background-repeat:no-repeat;background-color:#d8beb0}
+.tile-hair{background-position:0 0}.tile-nails{background-position:100% 0}.tile-makeup{background-position:0 100%}.tile-styling{background-position:100% 100%}
+.hero-photo-small{background-size:200% 200%;background-position:0 100%}
+.photo-grid .gallery-photo{height:370px}
+.gallery-note{font-size:12px;color:#88776f;margin:0;text-align:center}
+.demo-button{cursor:pointer;font-family:inherit}.visit .text-link.demo-button{background:none;border:0;border-bottom:1px solid currentColor;color:#fff4eb;padding:0 0 6px}
+.visit-seal{font-size:17px;letter-spacing:.1em;text-align:center}.visit-seal small{font-size:7px}
+.demo-toast{position:fixed;z-index:20;left:50%;bottom:25px;transform:translateX(-50%);background:#fffdf8;color:#412722;box-shadow:0 8px 35px #25100d33;border:1px solid #dfd1c5;padding:16px 20px;max-width:min(90vw,480px);font-size:13px;line-height:1.5;text-align:center}
+@media(max-width:900px){.photo-grid .gallery-photo{height:300px}}
+@media(max-width:650px){.photo-grid .gallery-photo{height:260px}}
+@media(max-width:390px){.photo-grid .gallery-photo{height:220px}}

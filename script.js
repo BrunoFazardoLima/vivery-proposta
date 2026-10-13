@@ -12,3 +12,13 @@ nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
   menu.setAttribute('aria-expanded', 'false');
   menu.setAttribute('aria-label', 'Abrir menu');
 }));
+const toast = document.querySelector('.demo-toast');
+let toastTimer;
+document.querySelectorAll('[data-demo-action]').forEach(button => button.addEventListener('click', () => {
+  toast.textContent = button.dataset.demoAction === 'mapa'
+    ? 'Na versão final, este botão abre a localização do salão no mapa.'
+    : 'Na versão final, este botão inicia uma conversa com o WhatsApp do salão.';
+  toast.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { toast.hidden = true; }, 5000);
+}));
